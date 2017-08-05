@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+	{% block body %}
+		<h1 class = "page-header">Customer Information</h1>
+			<ul class = "list-group">
+				<h3><li class = "list-style-group">{{customer.firstname}}</li></h3>
+				<h3><li class = "list-style-group">{{customer.lastname}}</li></h3>
+				<h3><li class = "list-style-group">{{customer.address}}</li></h3>
+				<h3><li class = "list-style-group">{{customer.city}}</li></h3>
+				<h3><li class = "list-style-group">{{customer.state}}</li></h3>
+				<h3><li class = "list-style-group">{{customer.country}}</li></h3>
+			</ul>
+	{% endblock %}
